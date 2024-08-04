@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="../css/sytle.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Formulario</h1>
-        <form  method="post">
-            <table >
+        <form  action="" method="post" >
+            <table  >
                 <thead>
                     <th colspan="2">Registro de usuarios</th>
                 </thead>
@@ -33,15 +34,21 @@
                     </tr>
                     <tr>
                         <td><label for="idPassword">Password:</label></td>
-                        <td><input type="password" name="password" id="idPassword" placeholder="ingrese password"></td>
+                        <td><input type="password" name="password" id="idPassword" placeholder="ingrese password" required ></td>
                     </tr>
                     <tr>
                         <td colspan="2">
                             <br>
                         </td>
                     </tr>
+                    <tr >
+                        <td colspan="2">
+                            <input class="inputSub" type="submit"  value="ingresar"></td>
+                    </tr>
                     <tr>
-                        <td><input type="submit"  value="ingresar" sytle="width: 500%;"></td>
+                        <td colspan="2">
+                            <a class="LinkRP" href="RecuperarContrasenia.html">Recuperar Password</a>
+                        </td>
                     </tr>
                 </tbody>
             </table>        

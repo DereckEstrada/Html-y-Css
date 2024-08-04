@@ -1,0 +1,33 @@
+*{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100%;
+    background-color: hsl(270, 100%, 97%);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #fff;
+    padding: 8px 15px;
+}
+.header__logo{
+    min-width: 75px;
+    max-width: 10%;
+}
+.header__list{
+    display: flex;
+    justify-content:end;
+    align-items:center;
+}
+.header label{
+    position: absolute;
+    left: 5px;
+}

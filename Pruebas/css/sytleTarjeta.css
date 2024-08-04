@@ -1,0 +1,38 @@
+body{
+    margin: 25px 25px;
+}
+.box{
+    max-width: 650px;
+    margin:auto;
+    border-radius: 35px;
+    box-shadow: 0 0 33px 0 #0009;
+    margin-bottom: 7%;
+}
+.Card, .CardGreen, .CardRed{
+    width: 100%;
+    box-sizing: border-box;
+    background: hsl(240, 75%, 75%);
+    padding: 25px;
+}
+.CardGreen{
+    background: hsl(120, 75%, 75%);
+}
+.CardRed{
+    background: hsl(0, 75%, 75%);
+}
+h2{
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+h4{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.imagPerfil{
+    width: 35%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0  33%;
+}

@@ -1,0 +1,74 @@
+body{
+    margin: 25px 35px;
+    background:linear-gradient(#111 35%, #333 95%)
+
+}
+form{
+    max-width: 450px ;
+    margin: 75px auto;
+    padding: 20px 25px;
+    background: hsl(0,0%,12%);
+    color: hsl(0,0%,95%);
+    border-radius: 10px;
+    box-shadow: 0 0 34px 0 hsl(0,0%,35%);
+    font-size: 16px;
+    font-size: Roboto;
+    
+}
+h2{
+    text-align: center;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.Contenedores{
+    margin: 10px, auto;
+}
+label{
+    font-size: 1.1em;
+}
+input, select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 3px;
+    background: transparent;
+    border: 1px solid hsl(0,0%,95%);
+    border-radius: 5px;
+    color: hsl(0,0%,95%);
+    font-family: Roboto;
+}
+option{
+    background: hsl(0,0%,12%);
+    font-family: Roboto;
+}
+textarea{
+    resize: none;
+    font-family: Roboto;
+}
+fieldset{
+    border: 1px solid #fff5;
+}
+legend{
+    font-family: Roboto;
+    font-size: 1.1em;
+}
+.checkCondi{
+    width: 25px;
+}
+.ContenedorBtm{
+    width: 50%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background: #fff;
+}
+.dataSubmit:hover{
+    background: hsl(120,55%,65%);
+}
+.dataSubmit{
+    padding: 4px;
+    margin: auto;
+    font-family: Roboto;
+    font-size: 1.1em;
+    background: hsl(0,0%,35%);
+}

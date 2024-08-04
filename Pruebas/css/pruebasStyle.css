@@ -1,0 +1,35 @@
+.faltante{
+    color: red;
+}
+#secret{
+    color: rgb(197, 11, 210);
+}
+p{
+    color:red;
+    font-family: Dereck;
+    font-size: 12 ;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+span{
+    color: blue;
+    text-decoration: line-through;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background:hsl(75, 70%, 75%);
+
+    margin: 10px;
+}
+.boxPrueba{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 2px solid black;
+}
+.boxNew{
+    box-sizing: border-box;
+    padding:25px;
+    border: 2px solid red
+}

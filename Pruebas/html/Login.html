@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/SyteLogin.css">
+    <link rel="icon" href="../css/icon.png">
+    <link rel="stylesheet" href="../css/fonts.css">    
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de Contacto</h2>
+            <div class="Contenedores">
+                <fieldset>
+                    <legend>Informaci&oacute;n basica</legend>
+                    <label for="nameId">Nombre Completo</label>
+                    <input type="text" name="name" id="nameId" placeholder="Dereck Estrada">
+                    <label for="emailId">Email</label>
+                    <input type="text" name="email" id="emailId" placeholder="ejemplos@mail.com">
+                </fieldset>
+            </div>
+            <div class="Contenedores">
+                <fieldset>
+                    <Legend>Selects</Legend>
+                    <label for="selectId">Select</label>
+                    <select name="" id="selectId">
+                        <option value="user1">Prueba1</option>
+                        <option value="user2">Prueba2</option>
+                    </select>
+                    <label for="inDataList">DataList</label>
+                    <input list="dataListId", id="inDataList">
+                    <datalist name="" id="dataListId">
+                        <option value="Dereck Estrada">Speedcuber</option>
+                        <option value="Tamo Prue">Programador</option>
+                    </datalist>
+                </fieldset>
+            </div>
+            <div class="Contenedores">
+                <fieldset>          
+                    <legend><label for="mensajeId"> Comentario</label>
+                    </legend>
+                    <textarea name="mensaje" id="mensajeId" rows="6" placeholder="Deja tu comentario...."></textarea>
+                </fieldset>    
+            </div>
+            <div class="Contenedores">
+                <input class="checkCondi" type="checkbox" name="Condiciones" id="condiId">
+                <label class="condi" for="condiId">Acepto terminos y condiciones</label>
+            </div>
+            <div class="ContenedorBtm">
+                <input class="dataSubmit" type="submit" value="Enviar">
+            </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.prueba{
+    container-type: inline-size;
+    container-name: prueba12;
+}
+@Container  (max-width:700px){
+    p{
+        background-color: black;
+        color: wheat;
+    }
+} 
